@@ -25,8 +25,10 @@ public class Character extends CEntity<String> {
     private Image appearance;
     //技能 能力值
     private Map<Skill, Integer> skills= new HashMap<>();
-    //时间 地点
+    //在某时间可能出现的地点
     private Map<DateTime,List<Situation>> situations=new HashMap<>();
+    //和其他NPC的关系
+    private Map<Character,Relationship> relationships=new HashMap<>();
 
 
 
