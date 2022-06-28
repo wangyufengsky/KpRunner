@@ -15,12 +15,12 @@ public class GetCharacter {
     private static List<Character> characters=new ArrayList<>();
 
     static {
-
+        getLizixun();
     }
 
 
 
-    private void getLizixun(){
+    private static void getLizixun(){
         //李子洵
         Character Lizixun = new Character();
         Lizixun.setName("李子洵");
