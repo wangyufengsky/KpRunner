@@ -1,4 +1,4 @@
-package com.wyf.kprunner.application.core;
+package com.wyf.kprunner.common.core;
 
 public interface IValueObject {
 }

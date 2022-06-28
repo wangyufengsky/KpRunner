@@ -1,16 +1,16 @@
-module com.example.kprunner {
+module com.wyf.kprunner {
     requires javafx.controls;
     requires javafx.fxml;
-        requires javafx.web;
-            
-        requires org.controlsfx.controls;
-            requires com.dlsc.formsfx;
-            requires validatorfx;
-            requires org.kordamp.ikonli.javafx;
-            requires org.kordamp.bootstrapfx.core;
-            requires eu.hansolo.tilesfx;
-            requires com.almasb.fxgl.all;
-    
-    opens com.example.kprunner to javafx.fxml;
-    exports com.example.kprunner;
+    requires javafx.web;
+
+    requires org.controlsfx.controls;
+    requires com.dlsc.formsfx;
+    requires validatorfx;
+    requires org.kordamp.ikonli.javafx;
+    requires org.kordamp.bootstrapfx.core;
+    requires eu.hansolo.tilesfx;
+    requires com.almasb.fxgl.all;
+
+    opens com.wyf.kprunner.application to javafx.fxml;
+    exports com.wyf.kprunner.application;
 }

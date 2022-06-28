@@ -1,4 +1,4 @@
-package com.example.kprunner;
+package com.wyf.kprunner.application;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

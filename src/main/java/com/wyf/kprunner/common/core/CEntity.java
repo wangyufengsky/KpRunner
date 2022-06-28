@@ -1,8 +1,8 @@
-package com.wyf.kprunner.application.core;
+package com.wyf.kprunner.common.core;
 
-import lombok.Data;
 
-@Data
+
+
 public class CEntity<CKey> implements IEntity{
 
     private CKey id;
