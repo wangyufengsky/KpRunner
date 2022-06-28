@@ -51,6 +51,7 @@ public class GetCharacter {
         Lizixun.setExperience("""
                 
                 """);
+        characters.add(Lizixun);
     }
 
 
