@@ -4,7 +4,9 @@ import com.wyf.kprunner.common.core.IValueObject;
 
 
 
-
+/*
+* 属性
+* */
 public class Attribute implements IValueObject {
 
     public Attribute(int STR, int DEX, int INS, int CON, int SIZ, int APP, int EDU, int POW, int LUCK, int ARMOR) {

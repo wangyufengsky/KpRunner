@@ -1,11 +1,9 @@
 package com.wyf.kprunner.character.core;
 
 
-
 /*
-* 人际关系
+* 特质
 * */
-public enum Relationship {
-
+public enum Trait{
 
 }

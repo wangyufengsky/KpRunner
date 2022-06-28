@@ -2,6 +2,9 @@ package com.wyf.kprunner.character.core;
 
 import com.wyf.kprunner.common.core.IValueObject;
 
+/*
+ * 日期-时间段
+ * */
 public class DateTime implements IValueObject {
 
     private int Date;
